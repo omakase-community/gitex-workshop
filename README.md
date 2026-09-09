@@ -14,6 +14,14 @@ You can also say **Workshop'u başlat.** No accounts need to be connected before
 
 ## What's inside
 
+### Connection guide
+
+[Codex bağlantı rehberi (Türkçe PDF)](docs/codex-baglanti-rehberi.pdf) · [Download the PDF](https://github.com/omakase-community/gitex-workshop/releases/download/v5.0.0/codex-baglanti-rehberi.pdf)
+
+One-page illustrated guide to connecting Gmail through Plugins, choosing your account and checking the connection. Based on the 9 September 2026 interface; screens may vary. Available separately from the original workshop ZIP.
+
+### Workshop files
+
 Seven workflows: customer research, email style, meeting actions, day/week planning, Notion answers, team catch-up and meeting preparation. The eighth skill, `workshop-decide`, helps you choose where to start.
 
 - `.agents/skills/`: runtime skills.
