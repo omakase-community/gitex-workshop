@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Answers in Notion"
+  short_description: "Explore project questions with Notion evidence"
+  default_prompt: "Use $workshop-notion-answers to help me answer a question about a project in Notion."

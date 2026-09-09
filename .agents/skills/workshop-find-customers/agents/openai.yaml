@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find My Next Customers"
+  short_description: "Explore your ICP and research target companies"
+  default_prompt: "Use $workshop-find-customers to help me define the customers I want to reach and research a useful company shortlist."

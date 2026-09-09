@@ -1,0 +1,22 @@
+KIVO - FICTIONAL WORKSHOP COMPANY
+
+Everything in this company brief is invented for the workshop. Kivo is not the participant's employer unless they explicitly choose this scenario. Addresses ending in .example cannot receive mail.
+
+Company: Kivo
+Location: United States; consulting clients across the US
+Team: 32 people
+Business: Technology consulting for growing B2B logistics businesses
+
+Kivo helps operations, technology, and sales teams connect the systems they already use. Its projects include CRM-to-operations integration, reducing repeated data entry, reliable handoffs between sales and operations, and practical workflow automation. It does not assume every client needs a replacement CRM.
+
+Typical buyers: Operations leaders who own a broken handoff, technology leaders responsible for integration and security, and sales operations leaders who need reliable customer information. Those people may have different priorities and different authority to approve a project.
+
+Working ICP hypothesis: US logistics companies with roughly 100-1,000 employees, especially when growth exposes manual handoffs or disconnected customer and operations information. This is a starting hypothesis for exploration, not a verified market finding or a fixed rule for the participant's own company.
+
+Participant role in Kivo examples: Alex Morgan, a Kivo consultant who works with prospects, runs discovery conversations, coordinates with the technical team, and follows up on commitments. Alex writes concise, specific, low-pressure business emails. Email: alex@kivo.example.
+
+Featured customer: Harborline Logistics, a fictional 340-person US logistics business. Maya Chen is VP of Operations, Daniel Reed leads IT, and Lena Ortiz manages Sales Operations. They are exploring how to improve the handoff from a won opportunity to an operational customer setup. Interest in a workflow pilot is not approval for a full CRM replacement.
+
+Time convention: Example inbox planning uses Monday, September 7, 2026 at 09:00 America/New_York. The meeting took place Thursday, September 3. Treat this as a frozen scenario clock, not the real present. The scenario includes customer-specific working dates; do not infer availability from a generic holiday calendar.
+
+Using Kivo for research: Kivo can be a fictional seller while Codex researches real prospect companies on the public web. Keep those real findings separate from the clearly labeled fictional offline company cards.

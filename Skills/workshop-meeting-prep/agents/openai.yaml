@@ -1,0 +1,4 @@
+interface:
+  display_name: "Get Ready for My Next Meeting"
+  short_description: "Prepare with context, priorities, and useful questions"
+  default_prompt: "Use $workshop-meeting-prep to help me prepare for an upcoming meeting."

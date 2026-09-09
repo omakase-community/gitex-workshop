@@ -1,0 +1,175 @@
+KIVO — A WEEK IN A CONSULTANT'S WORK INBOX
+
+FICTIONAL WORKSHOP INPUT. This is a static collection of invented emails, task notes, and calendar excerpts, not a connected inbox or a live calendar. All addresses use .example and are not deliverable. The participant is acting as Alex Morgan (alex@kivo.example), a consultant at Kivo, a fictional 32-person US consultancy connecting CRM and operations workflows for logistics businesses. Each record has a source ID so findings can be traced back to the supplied evidence.
+
+SNAPSHOT: Monday, September 7, 2026, 09:00 America/New_York (UTC-04:00). Interpret “today” and “this week” using this frozen sample clock. The week starts September 7; “next week” starts September 14. All record times are America/New_York unless an additional zone is explicitly written. The collection is deliberately partial. It includes six fictional accounts and only selected calendar entries; an empty period here is not proof that Alex's whole calendar is free.
+
+ACCOUNT DIRECTORY
+Harborline Logistics — 340 employees; Maya Chen, VP Operations; Daniel Reed, IT; Lena Ortiz, Sales Operations.
+Northstar Freight — 780 employees; Noah Brooks, Operations Director.
+CedarPort Distribution — 160 employees; Priya Shah, Commercial Director.
+Atlas Ridge Logistics — 230 employees; Eli Turner, Revenue Operations Lead.
+BlueMesa Supply Chain — 95 employees; Rosa Vega, Customer Operations Manager.
+SummitLink Freight — 410 employees; Samir Patel, Head of Sales; Nora Bell, Operations Lead.
+
+RECORD-01 | EMAIL THREAD | Harborline | Latest: 2026-09-07 08:32
+Subject: Thursday recap and the workflow map
+Participants: Alex <alex@kivo.example>, Maya <maya@harborline.example>, Daniel <daniel@harborline.example>, Lena <lena@harborline.example>
+
+September 3, 17:10 — Alex: Thanks for walking through the handoff today. I'll send a one-page workflow map by Tuesday, September 8, at noon Eastern. Daniel is targeting a sanitized field sample for Monday at 4 pm Eastern. For Wednesday's technical call, let's focus on handoff events and field availability. We still need to agree on a pilot success baseline. This wasn't a budget approval or a decision to replace the CRM.
+
+September 4, 10:25 — Daniel: The sample is still being sanitized. Monday at 4 pm remains the target. Please use field names and fake rows; production access is outside this stage. Also, not every incoming email should create an opportunity: much of our email concerns existing shipments.
+
+September 7, 08:32 — Maya: Please make the next-owner step clear in tomorrow's map. Use flagged placeholders if Daniel's sample hasn't arrived. Could you suggest how to establish the pilot baseline? I don't have a reliable count of missed follow-ups, so please don't headline a percentage improvement yet. No full proposal needed. Tuesday noon still works.
+
+No reply to Maya's latest message is included. No field sample is included as of the snapshot.
+
+RECORD-02 | CALENDAR EXCERPT | Harborline | Updated: 2026-09-04 10:30
+Event: Technical discovery — handoff events and field availability
+Start: Wednesday, 2026-09-09 14:00 America/New_York
+End: Wednesday, 2026-09-09 14:30 America/New_York
+Attendees: Alex, Maya, Daniel, Lena. Responses: all accepted.
+
+Description from Daniel: We'll review the one-page map, distinguish reliable fields from inconsistently used fields, and agree on which handoff events deserve further investigation. Bring questions about the current process. This isn't an implementation kickoff and won't require credentials. Lena will explain when sales considers a request handed over; operations may be using a different definition.
+
+Alex's calendar note: Map is due the day before this call, not at the start of it. Leave room for Maya and Lena to review it. The field sample helps but can be represented with explicit placeholders if it is late.
+
+RECORD-03 | PREPARATION NOTE | Harborline | Written: 2026-09-04 16:20
+Author: Alex
+Title: What I still need to resolve
+
+The recurring complaint in Thursday's conversation was that a record exists but the next owner cannot see the promise made to the customer. Build the draft map around ownership, due date, and the handoff event. Avoid turning this into a replacement-system recommendation.
+
+For pilot measurement, possible starting questions: What marks the transition from a won opportunity to operational customer setup? What counts as a completed handoff? Who can confirm the next action was visible? We have not agreed a baseline or a success threshold. I can prepare choices now; I should not insert a target number as though Maya accepted it. Daniel's sample is his deliverable. My deadline remains Tuesday noon, even if I need to mark unverified fields.
+
+RECORD-04 | EMAIL | Northstar | Received: 2026-09-07 08:05
+From: Noah Brooks <noah@northstarfreight.example>
+To: Alex Morgan <alex@kivo.example>
+Subject: Something for the board pack?
+
+Hi Alex,
+
+Our COO asked whether you could put together a fuller proposal for the board pack. Ideally we'd have it Tuesday morning: scope, timeline, a fixed price, and an estimate of what the team will save. I know that's more than the workflow conversation we have booked for Thursday.
+
+I haven't gathered the volume figures yet and we still have different opinions internally about whether the issue is reporting or the handoff itself. Could you let me know today what would be realistic? Even a clear explanation of what you need from us would help me manage expectations.
+
+Please don't spend a day designing something based on guesses. If a short discovery note is the sensible first step, say so and I can take that back to the COO. The larger project budget hasn't been approved.
+
+Thanks,
+Noah
+
+No reply or acceptance of Tuesday delivery is included.
+
+RECORD-05 | EMAIL THREAD | CedarPort | Latest: 2026-09-07 08:15
+Subject: Distributor inquiries after the second-site launch
+Participants: Priya <priya@cedarport.example>, Alex <alex@kivo.example>
+
+September 3, 11:05 — Priya: Your point about next actions living in email sounded familiar. We have a shared inbox and a CRM, but ownership becomes fuzzy when someone is covering a colleague. Could you talk next week? I want to show you a specific inquiry, not get a general AI presentation.
+
+September 4, 09:22 — Alex: Happy to. I can do Tuesday at 10 am Eastern for 25 minutes. Please remove customer and shipment details from anything you share. One smooth handoff and one that needed chasing would help us compare the steps.
+
+September 7, 08:15 — Priya: Tuesday works; I've accepted. I can bring the two examples. Our support supervisor will join for the first ten minutes, so could we start with ownership and cover tooling afterward? We are not ready to choose a new platform. We want to see whether the existing one can support a clearer process.
+
+The latest message requests agenda emphasis, not a proposal or a pricing commitment.
+
+RECORD-06 | TASK EXCERPT | Atlas Ridge | Created: 2026-09-02 15:40
+Title: Review Atlas Ridge revised process map
+Owner: Alex
+Listed due date: Monday, 2026-09-07 11:00
+Status in this excerpt: Open
+
+Description: Eli expects to share two verified customer-inquiry examples by Friday. Review the steps against those examples and send comments before the Monday team discussion. Focus on the missing ownership decision after initial assignment. Estimate about 90 minutes if the examples arrive complete.
+
+Personal note: I copied this date from the September 2 conversation. Check the email thread before starting; the team was still waiting for its regional managers. This task excerpt hasn't been refreshed since September 2 and contains no evidence that the promised examples were received.
+
+RECORD-07 | EMAIL THREAD | Atlas Ridge | Latest: 2026-09-04 15:42
+Subject: Re: Monday review
+Participants: Eli <eli@atlasridge.example>, Alex <alex@kivo.example>
+
+September 4, 14:55 — Eli: We've had to move the team review. Please hold your comments until September 15. Two regional managers still need to confirm the examples and I don't want you reviewing a version we'll replace. I'll send the revised material by September 14 at noon Eastern. The Monday discussion is canceled; nobody on our side is expecting comments then.
+
+September 4, 15:42 — Alex: Got it. I'll hold the review until September 15 and wait for your revised examples. No need to rush a version your team hasn't checked. If the owner question comes up before then, send it over and we can resolve that part separately.
+
+This later thread changes the timing in RECORD-06. No revised examples appear in this snapshot.
+
+RECORD-08 | EMAIL | BlueMesa | Received: 2026-09-03 12:18
+From: Rosa Vega <rosa@bluemesa.example>
+To: Alex Morgan <alex@kivo.example>
+Subject: Duplicate assignments in the shared inbox
+
+Hi Alex,
+
+We're seeing two people assigned to some inquiries after the coverage rota changed. It's making the handoff look complete when each person thinks the other is responding. Could you look before Monday's shift starts? The team is worried this is going to affect response times.
+
+We have three sanitized examples. I suspect the old coverage rule is still active, but I don't want us to change anything until we understand which rule is generating the duplicate. I'm available this afternoon if a short review helps.
+
+To be clear, our customer service inbox is still running and nobody has lost access. This is an ownership problem rather than a service outage. Once it's resolved, I'd like a short explanation we can share with the supervisors so they know what to watch for.
+
+Thanks,
+Rosa
+
+RECORD-09 | EMAIL RESOLUTION | BlueMesa | Received: 2026-09-04 16:48
+From: Rosa Vega <rosa@bluemesa.example>
+To: Alex Morgan <alex@kivo.example>
+Subject: Re: Duplicate assignments in the shared inbox
+
+Hi Alex,
+
+The supervisors checked the corrected rule against all three examples and today's new inquiries. We only see one owner now. Thanks for helping us identify that the previous coverage rule was still active.
+
+Please consider the duplicate-assignment issue closed. No need to keep Monday free for troubleshooting. Your short explanation was enough for the team and we've added it to the supervisor notes.
+
+The separate question about what happens when the assigned person is off sick is still interesting, but it isn't urgent and we haven't scoped work on it. Let's put it on the agenda for our next monthly check-in rather than treating it as another incident. That meeting hasn't been scheduled yet.
+
+Have a good weekend,
+Rosa
+
+RECORD-10 | EMAIL THREAD | SummitLink | Latest: 2026-09-07 08:40
+Subject: Cover for the owner decision
+Participants: Samir <samir@summitlink.example>, Alex <alex@kivo.example>, Nora <nora@summitlink.example>
+
+September 2, 13:27 — Alex: The open question is who owns a request when the original salesperson is away. Once we have that answer, I can update the handoff steps. Please send comments back in one thread so we avoid different versions.
+
+September 4, 11:10 — Samir: I said I'd resolve this Friday, but I need Nora's input. I'm copying her. This is holding up our review of the workflow note; it isn't blocking a live system.
+
+September 7, 08:40 — Nora: I can help, but “owner” might mean two things here. Operations can coordinate the work after an accepted request. We shouldn't become responsible for commercial promises before the customer has agreed. Can you send two concrete cases showing when the proposed switch would happen? Then Samir and I can decide together.
+
+No deadline for Alex's examples is stated; no owner rule has been approved.
+
+RECORD-11 | CALENDAR EXCERPT | CedarPort | Updated: 2026-09-07 08:18
+Event: Compare two distributor handoffs
+Start: Tuesday, 2026-09-08 10:00 America/New_York
+End: Tuesday, 2026-09-08 10:25 America/New_York
+Attendees: Alex and Priya accepted. Support supervisor is listed as a guest joining for the first ten minutes.
+
+Preparation note from Alex: Keep the opening focused on ownership while the supervisor is present. Ask how the team knows an inquiry has been accepted by the next person. The examples are Priya's to bring; no attachments were included in the calendar entry. A short agenda is enough. We haven't agreed to demonstrate a product or submit a proposal.
+
+The Harborline workflow map is due at noon on the same date. There is no evidence here that CedarPort can move its meeting, or that Harborline extended its deadline. Allow time to deliver both commitments.
+
+RECORD-12 | CALENDAR EXCERPT | Northstar | Updated: 2026-09-04 10:00
+Event: Weekly customer handoff — discovery conversation
+Start: Thursday, 2026-09-10 11:00 America/New_York
+End: Thursday, 2026-09-10 11:45 America/New_York
+Attendees: Alex and Noah accepted. COO optional, no response recorded.
+
+Agenda: Compare current account reporting with the actual sales-to-operations handoff. Establish which problem to investigate first. Noah will bring an estimate of inquiry volume if he can get it from the team. No figures were attached and no figures are included elsewhere in this snapshot.
+
+This existing appointment predates Noah's request for Tuesday board-pack material in RECORD-04. It remains on the supplied calendar. There is no accepted implementation scope, fixed price, savings estimate, or signed project in these records. A response to Noah today could clarify what can reasonably be prepared before discovery.
+
+RECORD-13 | INTERNAL NOTE | SummitLink | Written: 2026-09-04 16:10
+Author: Alex
+Title: Examples for the unresolved handoff decision
+
+Two cases might help Samir and Nora agree on ownership. First: a potential customer asks for a service that requires operational confirmation before sales can make a promise. Second: an existing customer has accepted the quote and needs delivery coordination. The same owner rule may not fit both.
+
+These are illustrative cases, not actual customer records. If Nora responds, use her distinction rather than assuming operations should own everything. I haven't promised a deadline for this write-up. It looks like a small useful task between larger commitments, but it should not displace the Harborline map if time is tight. Sending a proposal or implementing a rule would be premature; the decision is still theirs.
+
+RECORD-14 | PERSONAL WORKING NOTE | Cross-account | Written: 2026-09-07 08:50
+Author: Alex
+Title: Available focus time and boundaries
+
+For today's sample scenario I have two hours of uninterrupted work before lunch and 45 minutes after 3 pm. I can move those blocks around, but I don't want a plan that assumes a full clear day. I can use a short gap for a customer reply; reviewing source examples and building a workflow map need deeper focus.
+
+The outcome I care about this week is keeping commitments credible while getting the next decisions unblocked. A large prospect's urgent request deserves a response, but not automatically a guessed proposal. Please distinguish what I promised from what someone asked for, and what another person owes me from work I owe them.
+
+I haven't set aside separate time for the SummitLink examples. That could be useful work if I can fit it around committed delivery and brief replies. I also haven't copied every personal or internal appointment into this note, so the selected customer meetings are not a complete calendar.

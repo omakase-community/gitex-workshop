@@ -1,0 +1,4 @@
+interface:
+  display_name: "Turn Meetings Into Action"
+  short_description: "Explore meetings and prepare CRM follow-up work"
+  default_prompt: "Use $workshop-meeting-actions to explore a customer meeting and decide what to do next."

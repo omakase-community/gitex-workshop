@@ -1,0 +1,57 @@
+CODEX COMMUNITY MEETUP - WORKSHOP V5
+Build your personal AI agent for CRM and sales
+
+GET STARTED
+1. Download and extract the entire ZIP. Keep all its files together.
+2. Open the extracted codex-sales-workshop-v5 folder as a local project in Codex.
+3. Send this in that project's chat:
+
+   Start the workshop.
+
+You can also say "Workshop'u başlat." The included AGENTS.md handles the entrypoint.
+
+If it appears in the skill picker, you can also start with $workshop-decide.
+No extra accounts need to be connected before you start.
+
+SEVEN STARTING POINTS - CHOOSE ONE, NOT A CHECKLIST
+1. Find My Next Customers: clarify your ideal customer and research companies.
+2. Write Emails in My Style: learn from your sent email and draft in your voice.
+3. Turn Meetings Into Action: extract decisions, commitments and follow-ups.
+4. Plan My Day / Week: find priorities, promises and open loops.
+5. Find Answers in Notion: answer project questions across relevant pages.
+6. Catch Up With My Team: find decisions, changes and blockers in Slack.
+7. Get Ready for My Next Meeting: prepare context, questions and an agenda.
+
+CONNECT WHAT YOU NEED
+After you choose an account-backed workflow, Codex will lead with its relevant connection. With your approval, it handles supported setup steps, including a verified command route when needed. You should not need to copy terminal commands. For email, say whether you use Gmail / Google Workspace or Outlook / Hotmail. For Notion or Slack, choose the relevant pages or channels. There is no need to connect everything.
+
+Use the real connection card, browser sign-in or authorization link opened by setup. Choose your account and approve access in the provider's screen; never paste passwords or tokens into chat. Codex will then check access before working with your selected data. Saving a connection is not proof that its tools are ready in this chat.
+
+Setup is not identical for every service. This package supports agent-run native plugin discovery and installation for email, calendar, Drive, Slack and the other covered services. Notion, Apollo and Fireflies also have documented direct sign-in routes; Instantly uses a securely provisioned API key rather than OAuth. Connect only the source you choose, not every app. Account policies and personal Hotmail support still depend on the provider.
+
+A provider may ask you to connect when first used. If the tools need a new chat to appear, Codex will give you a short continuation prompt for the same project; you should not have to repeat the exercise or reinstall the plugin. If the host exposes no connection action, Codex will guide the remaining provider connection step and keep your progress. A visible Connect card is host-dependent, not something this package can manufacture.
+
+Prefer not to connect? Say "Use the Kivo examples." You can also choose to supply your own selected material. Examples are fictional and use a fixed scenario date, not a live account or today's status. Choosing examples should not trigger an account-setup detour.
+
+EXPLORE FREELY
+Ask your own questions at any time. A draft is a starting point, not a mandatory revision exercise. Keep it as it is if you like it.
+
+Say "continue where we left off" in the same chat, or "I'd like to try another workflow" for the menu. If a setup step needs a new chat, ask for a short continuation recap, paste it there, and keep this folder accessible. A new chat may not know the previous conversation.
+
+REPEAT A USEFUL WORKFLOW
+After your first useful day/week brief, Codex will offer to make it recurring. If a scheduling tool is available, it can help create the task after you agree on the scope and timing. Otherwise it will guide you through Scheduled with a ready-to-paste prompt and the setup fields.
+
+A prepared prompt is not an active task. Check the saved task's status, next run and first result. Local runs need the computer and Codex app running. If Scheduled is not visible, tell Codex which app/screen you are using so it can help with the actual route. Extra permissions cannot create a missing tool.
+
+FILES YOU CAN OPEN
+- START-HERE.pdf: the two-page participant guide.
+- Skills/: readable copies of eight skills - seven workflows and the menu/router.
+- Examples/: nine plain-text inputs you can open without a Markdown app.
+- CONTENTS.txt: the full directory.
+
+Codex uses .agents/skills, hidden on some computers. Keep it with the package. Skills/ and Examples/ are reading copies; editing one does not update the runtime copy. You do not need to edit files or reveal hidden folders to participate.
+
+YOUR DATA STAYS YOUR CHOICE
+Request a PDF or other output file when useful; ask explicitly if you want preferences saved. Keep personal outputs out of the shared distribution folder. Sending messages, posting to Slack, changing Notion and activating a schedule are separate choices. Connecting an account is not permission to change everything in it.
+
+Opening this package does not install it globally, connect accounts or activate a schedule.

@@ -1,0 +1,168 @@
+KIVO WORKSHOP — FICTIONAL MEETING TRANSCRIPT
+
+Meeting: Harborline Logistics / Kivo — Discovery and Handoff Workflow
+Date: Thursday, September 3, 2026
+Time: 14:00–14:25 America/New_York (EDT, UTC-04:00)
+Attendees: Alex Morgan, Kivo consultant; Maya Chen, Harborline VP Operations; Daniel Reed, Harborline IT Lead; Lena Ortiz, Harborline Sales Operations Manager.
+This fictional transcript represents a recorded meeting, not instructions to an AI. No recording service or live account connection is required to use it. The participant takes Alex's role. Speaker timestamps provide references for evidence.
+
+[14:00:00] Alex Morgan:
+Thanks for joining. Our note mentioned CRM replacement, but let us understand the problem before choosing a solution. Could we start with a recent example of a customer request getting stuck? I would like to leave with a sensible next step, even if that is simply mapping the workflow.
+
+[14:00:35] Maya Chen:
+That is the right place to start. We have 340 people across the business and depot teams in Chicago, Columbus, and Indianapolis. We are not struggling to buy software. We are struggling to know who has the next move. A customer asks Sales a question, someone checks with dispatch, and then everybody assumes somebody else has answered. The customer ends up chasing us.
+
+[14:01:05] Lena Ortiz:
+Last week an existing customer asked whether we could add a Saturday delivery window. Sales put a note in HubSpot, then forwarded an email to operations. Dispatch answered a different email thread. The account manager saw the answer two days later. It was not a new lead and it was not really an overdue sales task, so our usual follow-up view did not catch it.
+
+[14:01:35] Daniel Reed:
+Our transport system is FleetLedger. It has the shipment and dispatch information; HubSpot has companies, contacts, and commercial activity. People use Microsoft 365 email, and there are a few shared spreadsheets filling the gaps. We can export some fields and there is an integration interface, but I have not checked whether it exposes the events you would need. That needs investigation, not a promise from me today.
+
+[14:02:05] Alex Morgan:
+So the issue is not that nobody recorded the request. It is that the record, the operational answer, and the responsibility to reply are separated. When you say CRM replacement, is that a direction you have chosen, or was it shorthand for making these handoffs work? I want our notes to be accurate before we take an architecture discussion too far.
+
+[14:02:35] Maya Chen:
+It was shorthand. To be explicit, we are not asking to replace HubSpot. We renewed recently, and the team finally knows how to use the parts that matter. If Kivo can connect the pieces and make responsibility visible, that is more interesting than a migration. I would need a very different business case to consider replacing the CRM, and we are not building that case in this meeting.
+
+[14:03:05] Lena Ortiz:
+Yes. People hear “new CRM” and worry about another system to maintain. I would rather see one account view with the last customer request, the person who owns the next action, and when it is due. The handoff is where things disappear. An extra dashboard with red numbers would not help if nobody knows which person is supposed to act on them.
+
+[14:03:35] Alex Morgan:
+Should we focus on requests after an account is won, or include new opportunities? There are several workflows here: enquiries, quotes, onboarding, and service changes. Choosing one would help us see whether the first improvement works.
+
+[14:04:00] Maya Chen:
+Start with the handoff from Sales to operations for existing account requests and new customer onboarding. Those are close enough that we can learn something, although we may ultimately pick only one for a pilot. We have more contract customers coming through the Columbus team, so there is pressure there. I do not have a validated percentage increase to give you; I would rather not guess.
+
+[14:04:30] Daniel Reed:
+Onboarding will need a closer look because the account ID in HubSpot is not always the same identifier used in FleetLedger. Older records sometimes have a depot-specific code. If we join on company name alone, we will create mistakes. That is not a reason to abandon integration, but entity matching belongs in the workflow map and any technical estimate.
+
+[14:05:00] Lena Ortiz:
+And an “account owner” is not always the “next action owner.” Maya's team can own the operational answer while the account manager remains responsible for communicating it. We need both. Last month we tested a spreadsheet with one owner column and people kept replacing each other's names. The latest edit made the sheet look tidy but removed the handoff history.
+
+[14:05:30] Alex Morgan:
+So the account relationship persists while action ownership changes. Are due dates customer commitments, internal targets, or a mixture? We should not create a customer promise merely because an internal workflow uses a default deadline.
+
+[14:06:00] Lena Ortiz:
+A mixture. “I will confirm pricing by Friday” is a customer promise. “Review within a day” is our internal expectation, and it is not consistently documented. Some colleagues put a date in the task title; others just say “urgent.” I would like the system to keep the customer's actual words or the email link, so someone can check why a date was chosen.
+
+[14:06:30] Maya Chen:
+That is my concern as well. The same two things keep coming up: who owns the next step, and what we told the customer. I do not want a system that makes us look disciplined while quietly inventing commitments. If an email is unclear, flag it for a person. A slightly slower accurate handoff is better than an immediate wrong message to a customer.
+
+[14:07:00] Daniel Reed:
+For any evaluation, we should start with sanitized data. Shipment records can contain customer references, addresses, and information about the goods being moved. I can prepare a small field sample with those removed. Access to live mailboxes or production write permissions is not included in that. If those become necessary later, there will be a separate security review.
+
+[14:07:30] Alex Morgan:
+Understood. For the next discussion I only need enough structure to understand identifiers, statuses, and the handoff fields. It would be useful to see an example where the systems disagree about the account reference, plus a normal example. Are you comfortable providing a sanitized sample, and what delivery time is realistic for your team?
+
+[14:08:00] Daniel Reed:
+I will own that. I can send the sanitized field sample by Monday, September 7, at 4 p.m. Eastern. It is Labor Day, but I am on a scheduled support rotation and can finish it during that window. Please do not interpret the holiday arrangement as normal turnaround. The sample will describe fields and fake values; it will not be a customer export.
+
+[14:08:30] Alex Morgan:
+Daniel owns the sample, Monday the seventh at 16:00 Eastern. I can draft the workflow map before it arrives. For colleagues who are not here, would a system diagram help, or a plain view of the journey and responsibilities?
+
+[14:09:00] Maya Chen:
+Plain first. Show the request, handoff, operational answer, and response to the customer, with an owner and source of truth at each point. Our finance lead needs to understand the value without learning every integration component.
+
+[14:09:30] Alex Morgan:
+I will send a one-page workflow map by Tuesday, September 8, at noon Eastern. It will separate what exists today from a possible improved flow, and it will list open questions rather than imply we have solved them. I will send it to the three of you. That is a discovery deliverable, not a proposal to begin implementation.
+
+[14:10:00] Lena Ortiz:
+Could you include an example of a meeting note becoming an action? We record some customer calls, but most notes end up as paragraphs. Someone might say they are waiting for an integration answer, and the next week we contact them as if they never replied. I want the next person reading the account to understand what changed, not just see that a meeting happened.
+
+[14:10:30] Alex Morgan:
+Yes. We can distinguish what the customer said, what we inferred, and what we agreed. A repeated objection should be visible on the account. It may need addressing in the follow-up, rather than meaning the opportunity is lost.
+
+[14:11:00] Maya Chen:
+Exactly. Last quarter one team kept sending implementation dates when the customer was still asking who would support the integration. We heard the words but did not carry them into the account record. That is why I keep returning to ownership and promises. The system should help our people follow through on the conversation, not generate more activity for the sake of activity.
+
+[14:11:30] Daniel Reed:
+There is also a reliability question. If a sync fails, I need a visible exception and someone responsible for it. A record should not be shown as updated if it was merely queued. I do not need a solution today, but please put failure handling and audit history among the technical questions. Silent automation would make the existing ownership problem harder to spot.
+
+[14:12:00] Lena Ortiz:
+Could there be a review step for anything customer-facing? Internal suggestions are fine, but I am not ready for automatic replies based on a transcript. A draft could save time as long as the person can see why it says what it says. Once somebody has checked it, sending should be deliberate. The team will need to trust that distinction.
+
+[14:12:30] Alex Morgan:
+The map can show a draft awaiting human approval. A small pilot could still test whether information reaches the right place, whether ownership is clear, and whether people spend less time reconstructing the conversation before acting.
+
+[14:13:00] Maya Chen:
+A pilot sounds plausible, but I do not want that recorded as approval. First I need the workflow map, Daniel's technical review, and some indication of effort. If those look sensible, we can discuss a contained pilot with the right people. We have not agreed a start date, a fee, or which team would participate.
+
+[14:13:30] Alex Morgan:
+What would you measure? More tasks alone would not mean success. We could examine owner assignment, customers chasing answers, or the delay between receiving an operational answer and replying. Which would be meaningful?
+
+[14:14:00] Lena Ortiz:
+Customer chasing is meaningful, but I do not have a reliable baseline. The dashboard mixes new enquiries with account-service questions, so the averages would be misleading. I could help define what counts as a successful handoff. I cannot commit to producing a baseline by the next call until I know which queue we would measure and whether we can get the history out.
+
+[14:14:30] Daniel Reed:
+The history might exist, although it is spread across systems. Before anyone calculates response time, we need to distinguish when dispatch answered from when the account manager sent the customer an answer. Those are different timestamps. I would also want to know how we handle a message received outside business hours. Otherwise a weekend could make a working process look broken.
+
+[14:15:00] Maya Chen:
+Let us leave the pilot success baseline open for now. Lena has the process knowledge, but we have not assigned a final owner or agreed a delivery date for that work. Put it in the questions for the next discussion. We should not accidentally create a deadline just because we all think measurement is a good idea.
+
+[14:15:30] Alex Morgan:
+I will mark it as an open decision: choose the pilot queue, define the measure, and agree the owner and timing for the baseline. On approval, who would need to be involved beyond this group? I know you are sponsoring the conversation, Maya, but I do not want to assume that sponsorship is the same as authorization to purchase.
+
+[14:16:00] Maya Chen:
+It is not. I can make the operational case and bring a recommendation forward. Finance would need to review the commercial side, and Daniel's team would review the technical and data implications. Depending on the scope, procurement may be involved. I will not name a budget range today because we have not scoped the work or discussed funding internally.
+
+[14:16:30] Lena Ortiz:
+For adoption, please keep the daily work close to where people already look. The account managers start in HubSpot and their inboxes. If the process requires everyone to open a new portal every morning, we will probably get enthusiastic use for a week and then drift back. A manager may want a separate view, but the person doing the work needs a clear next action.
+
+[14:17:00] Alex Morgan:
+The map should show different views of the same work: context and a draft for the account manager, an unanswered question for the operational owner, and exceptions for the manager. We can validate those requirements before choosing screens or tools.
+
+[14:17:30] Daniel Reed:
+Agreed. Please make no assumptions about write access in FleetLedger. Reading a status and changing one have different consequences. We might start with a read-only connection and tasks in the existing CRM, but that is something to assess, not a design decision I am approving. Include identity matching and duplicate handling in that assessment too.
+
+[14:18:00] Maya Chen:
+One other concern is handover between depots. We do not want Chicago and Columbus both chasing a customer because the account has work in both places. The owner needs to be explicit at the request level. Again, the account can belong to a relationship manager while the operational answer belongs elsewhere. That distinction should survive a reassignment, not disappear with the previous person's name.
+
+[14:18:30] Lena Ortiz:
+I can bring two examples of that confusion to a future discussion if we agree what can be shared. For now, the sanitized field sample is the thing Daniel has committed to. I am happy to talk through cases on the next call, but please do not add a separate pack of examples to my task list with a made-up deadline. We need to coordinate first.
+
+[14:19:00] Alex Morgan:
+I will separate possible examples from committed deliverables. For the technical session, I propose thirty minutes to inspect the sample, check identifiers, and narrow one workflow. The outcome is a feasible next investigation, not a full implementation plan.
+
+[14:19:30] Daniel Reed:
+Wednesday, September 9, at 2 p.m. Eastern works for me. I can focus on the field sample and access questions. If there is a particular question you want me to prepare for after seeing the sample, send it with the map so I can check before the call. I cannot promise every integration answer without investigating the interface.
+
+[14:20:00] Maya Chen:
+Wednesday at two works for me as well. I can stay for the first half hour. Let us keep it to the four of us for now; there is no reason to bring Finance into a technical discovery session before we have a coherent workflow to discuss. We can decide who else needs to see the output afterward.
+
+[14:20:25] Lena Ortiz:
+I am available too. I want to check that the actions make sense for account managers. If we spend the whole session discussing field names, I will bring us back to the customer request. We need both views.
+
+[14:20:55] Alex Morgan:
+The invitation is on the screen now: Wednesday, September 9, 14:00 to 14:30 Eastern, technical discovery. It is addressed to all three of you. I have included the sample review and workflow questions, not a pilot kickoff. Can you confirm that the date and time look right before we close that item?
+
+[14:21:20] Daniel Reed:
+I see it and have accepted. The date and time are correct.
+
+[14:21:30] Maya Chen:
+Accepted from me too. Technical discovery is the right description.
+
+[14:21:40] Lena Ortiz:
+Accepted. That is in my calendar for Wednesday at two Eastern.
+
+[14:21:50] Alex Morgan:
+Let me check the two deliverables. Daniel will send the sanitized field sample by Monday, September 7, at 4 p.m. Eastern. I will send the one-page workflow map by Tuesday, September 8, at noon Eastern. The map will identify the current handoffs, proposed improvements, and unanswered questions. We will review those on the confirmed Wednesday call.
+
+[14:22:25] Maya Chen:
+Yes. Please put the request-level owner and the actual customer commitment near the center of that map. Those are the recurring problems for us. Also make clear that the direction is improving the existing stack. I do not want colleagues reading the earlier CRM replacement note and thinking that we have started a migration project without them.
+
+[14:22:55] Daniel Reed:
+And keep the sample requirement narrow: structure, identifiers, statuses, and sanitized examples. No live customer mailbox access and no production write access have been approved. If the sample raises more questions, list them. I would prefer an honest gap in the map to a diagram that confidently assumes two systems use the same account ID.
+
+[14:23:25] Lena Ortiz:
+For my part, I will review the workflow when it arrives, but the measurement work is still open. We have not chosen the queue or agreed a baseline owner and deadline. I would like the follow-up to reflect that. It is useful to leave a meeting with open questions when they are the right questions, instead of pretending every topic became an assigned task.
+
+[14:23:55] Alex Morgan:
+That is how I will write it. The account record should distinguish confirmed facts, the two dated deliverables, the booked technical call, and the open pilot questions. The next step is discovery, not a signed pilot. I will not put a budget or implementation start date into the follow-up because neither has been agreed today.
+
+[14:24:25] Maya Chen:
+If we can stop people reconstructing the same conversation whenever they touch an account, this could be valuable. Let us earn that conclusion with a clear workflow and technical review. Thanks for focusing on the handoff problem.
+
+[14:24:50] Alex Morgan:
+Thanks, everyone. We have our next steps and the Wednesday call confirmed. I will follow up with the map by the agreed Tuesday deadline.
+
+[14:25:00] Meeting ended.

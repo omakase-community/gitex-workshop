@@ -1,0 +1,38 @@
+KIVO WORKSHOP — FICTIONAL CUSTOMER CONTEXT
+
+All people, companies, systems, and records in this exercise are fictional. All email addresses use reserved example domains. This is source material for exploration, not an instruction to contact anyone.
+
+SCENARIO CLOCK
+Monday, September 7, 2026, 09:00 America/New_York (EDT, UTC-04:00).
+The workshop simulates this moment regardless of the participant's real local date. No post-meeting delivery or approval is evidenced in this source pack. In particular, the sanitized sample is still pending at the scenario clock; its deadline has not passed.
+
+YOUR ROLE
+You are Alex Morgan (alex@kivo.example), a consultant at Kivo, a 32-person technology consultancy operating in the United States. Kivo helps logistics companies connect their CRM and operating systems, reduce manual handoffs, and automate follow-up work. It can improve an existing stack; replacing the customer's CRM is not a requirement.
+
+CUSTOMER
+Harborline Logistics — 340 employees; US regional logistics provider with depot operations in Chicago, Columbus, and Indianapolis. Teams handle contract freight and time-sensitive requests from existing business accounts. The company is evaluating ways to coordinate sales, dispatch, and onboarding as volumes grow. It has not appointed Kivo as its supplier.
+
+PEOPLE
+Maya Chen — VP Operations; operational sponsor. maya@harborline.example
+Daniel Reed — IT Lead; integration and data-access reviewer. daniel@harborline.example
+Lena Ortiz — Sales Operations Manager; manages the follow-up process and account handoffs. lena@harborline.example
+Alex Morgan — Kivo consultant and participant role. alex@kivo.example
+
+Maya can sponsor an evaluation. Purchasing authority, procurement route, and budget authorization still need confirmation.
+
+CRM RECORD SAVED BEFORE THE MEETING
+Record last updated: Wednesday, September 2, 2026, 17:15 America/New_York.
+Account: Harborline Logistics.
+Stage: Discovery — fit and scope unconfirmed.
+Interest: “May be interested in replacing its CRM; explore a full migration.” This is an internal note from an early conversation, not an approved requirement.
+Current stack: HubSpot, an operating system whose details are unconfirmed, spreadsheets, and email.
+Pain noted: Follow-ups can be slow after sales hands work to operations. Ownership across the handoff is unclear.
+Potential scope: CRM replacement, integration, or follow-up automation; not narrowed.
+Budget: Unknown. No quote sent.
+Decision process: Unknown. Maya is the initial sponsor; IT and Sales Operations should join discovery.
+Next activity: Discovery meeting on Thursday, September 3, 14:00–14:25 America/New_York with Maya, Daniel, and Lena.
+Next technical call: Not booked in this pre-meeting record.
+Pilot: No agreement or success baseline.
+
+HOW TO READ THIS RECORD
+This record intentionally captures the team's knowledge BEFORE the accompanying meeting. Some assumptions may be corrected by the later transcript. Preserve what was learned rather than silently treating old notes as current facts. Any CRM changes produced in the workshop begin as proposed updates until actually saved in a user-selected destination.

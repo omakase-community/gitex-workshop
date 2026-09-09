@@ -1,0 +1,131 @@
+KIVO WORKSHOP - FICTIONAL NOTION PROJECT PAGES
+
+This is a fictional local export, not a connected Notion workspace. Companies and people are invented. PAGE labels identify sources within this file; they are not real Notion IDs. Links such as [[PAGE-N03]] refer to another page below. No live URLs, account permissions, or customer data are included.
+
+Scenario clock: Monday, September 7, 2026, 09:00 America/New_York. Later dates below are planned activities, not events already completed. The participant is Alex Morgan, consultant at Kivo, a 32-person US technology consultancy. Harborline Logistics has 340 employees. The underlying discovery meeting occurred Thursday, September 3, 14:00-14:25 Eastern.
+
+PAGE-N01 | Harborline Logistics - Project Home
+Owner: Alex Morgan
+Last edited: September 4, 2026, 10:10 Eastern
+Status: Active discovery
+
+Harborline is exploring whether better connections between its existing systems would reduce missed handoffs. Maya Chen, VP Operations, is our sponsor for discovery. Daniel Reed leads the technical review; Lena Ortiz represents Sales Operations. We have not been selected to implement a project.
+
+The customer request can be recorded in HubSpot while the operational answer lives in a separate email thread. The relationship owner and the person responsible for the next action may differ. Customer-service requests and new-account onboarding both have these problems; discovery has not yet narrowed a single pilot workflow.
+
+The next booked conversation is technical discovery on Wednesday, September 9, 14:00-14:30 Eastern. It is not a kickoff. Before it, Daniel will provide a sanitized field sample and Alex will prepare a one-page workflow map. The commitments tracker carries the dates [[PAGE-N06]].
+
+Project navigation: original opportunity note [[PAGE-N02]]; September 3 discovery record [[PAGE-N03]]; draft handoff design [[PAGE-N04]]; technical questions [[PAGE-N05]]; commitments [[PAGE-N06]]; pilot planning scratchpad [[PAGE-N07]]; internal briefing questions [[PAGE-N08]].
+
+The original opportunity note remains here because colleagues used it when preparing discovery. It has not been rewritten. New readers should compare it with the meeting record before presenting the scope to another team.
+
+PAGE-N02 | Opportunity Note - Initial CRM Conversation
+Owner: Alex Morgan
+Last edited: September 2, 2026, 17:15 Eastern
+Status: Historical intake note; preserved after discovery
+
+Maya described slow follow-up between Sales and operations. The first shorthand in our notes was “CRM replacement.” Possible project angles: a full migration, an integration layer, or a smaller follow-up automation. We need the customer to distinguish the problem from the solution before estimating any of these.
+
+Known stack at intake: HubSpot, an operating system whose name is unconfirmed, spreadsheets, and email. We do not yet know whether their existing tools have appropriate integration interfaces. Possible commercial upside could be wider than a single workflow, but that is a Kivo hypothesis rather than a customer requirement.
+
+Suggested discovery questions: Does the customer want to replace HubSpot? Where is ownership lost? What does the operations team use? Who approves a project? Is there an existing budget? We have not sent a quote or confirmed a decision process.
+
+Maya is the initial sponsor. Her title is not evidence that she can approve purchase. IT and Sales Operations should join the first discussion because a sales-only view could miss the operational handoff.
+
+Next activity at the time of this note: September 3 discovery with Maya, Daniel, and Lena. No technical session booked yet. No pilot agreement. If there is interest in a migration, we would need to understand adoption and data risks before suggesting a plan.
+
+PAGE-N03 | Discovery Record - September 3
+Owner: Alex Morgan
+Last edited: September 3, 2026, 16:20 Eastern
+Status: Notes of the completed customer meeting
+
+Attendees: Alex Morgan, Maya Chen, Daniel Reed, Lena Ortiz. The recorded conversation ran 14:00-14:25 Eastern. This page summarizes that discussion; it is not a signed statement of work.
+
+Maya explicitly corrected the replacement assumption: Harborline is not asking to replace HubSpot, which was recently renewed. The current direction is improving the existing stack and making responsibility visible. A migration would require a different business case and was not the subject of this meeting. This corrects the earlier intake note [[PAGE-N02]].
+
+Daniel named FleetLedger as the transport system. HubSpot holds commercial activity; FleetLedger holds shipment and dispatch information; Microsoft 365 and spreadsheets bridge gaps. Account IDs can differ, sometimes using depot-specific codes. Joining on company name alone risks mistakes. Interface availability does not establish that the required events are exposed.
+
+Maya repeatedly emphasized request-level ownership and the actual promise made to the customer. Lena distinguished the relationship owner from the next-action owner. An internal review target must not silently become a customer deadline. Keep the customer's words or source email alongside a commitment.
+
+Daniel committed to a sanitized field sample. Alex committed to a one-page workflow map. Both dates appear in [[PAGE-N06]]. A Wednesday technical discussion was booked and accepted by all four attendees.
+
+Maya said a pilot was plausible but not approved. Scope, price, start date, and participating team remain open. She can sponsor the operational case; Finance must review the commercial side and IT must review the technical and data implications. Procurement may also be needed. No budget range was given.
+
+PAGE-N04 | Request Handoff - Working Design Notes
+Owner: Alex Morgan
+Last edited: September 4, 2026, 11:40 Eastern
+Status: Internal working draft; not delivered to Harborline
+
+Working problem: a customer request crosses systems and teams, but the answer does not reliably return to the person responsible for responding. The draft should make the handoff visible without adding another daily portal for account managers. Lena said their normal starting places are HubSpot and their inboxes.
+
+Candidate record fields: request summary, source reference, relationship owner, current action owner, last operational answer, next action, and commitment date with its basis. A relationship owner can remain unchanged while the action owner moves from dispatch back to Sales. Reassignment should retain history rather than overwrite the previous owner's name.
+
+A date might be an explicit promise, an internal target, or a suggestion. The design needs to preserve that distinction. “Urgent” alone is not a dated commitment. A source reference is useful when someone needs to check why an item is shown as due.
+
+Possible first view: one account manager sees requests awaiting an operational answer; an operations lead sees the answers they own; a manager sees exceptions. These are design ideas, not screens agreed by Harborline. No implementation tool has been chosen.
+
+For customer-facing messages, the proposed flow ends at a draft awaiting human review. Lena was not ready for automatic replies from transcripts. Kivo can explore internal suggestions without assuming permission to send.
+
+The map will separate today's workflow, possible changes, and open questions. This working page is not the promised one-page deliverable, and no delivery to the customer has been recorded.
+
+PAGE-N05 | Technical Discovery - Questions and Boundaries
+Owner: Alex Morgan
+Last edited: September 4, 2026, 13:05 Eastern
+Status: Open question register
+
+Input expected from Daniel: a small sanitized field sample containing structure, identifiers, statuses, and fake values. It is not a customer export. No sample has arrived in this source pack by the scenario clock. The deadline is still ahead [[PAGE-N06]].
+
+Identity matching: how do HubSpot IDs, FleetLedger IDs, and depot-specific codes relate? We need one normal example and one mismatch. A matching strategy has not been approved. A visually similar company name is insufficient evidence of identity.
+
+Interface coverage: the transport system has an integration interface, but Daniel has not verified the events and fields needed for this workflow. Read-only status access and writing a status carry different consequences. A read-only starting point was discussed as an option, not authorized as an actual connection.
+
+Reliability: Daniel wants a visible exception and a responsible person when a sync fails. “Queued” must remain distinct from “updated.” Retry behavior, duplicate handling, and audit history are investigation topics. There is no deployed synchronization process in this project.
+
+Access boundary: sanitized discovery material only. Live mailbox access and production write permissions have not been approved. A future need for either would require a separate security review.
+
+Measurement: dispatch's answer timestamp and the account manager's reply timestamp measure different intervals. Weekend handling could distort a response-time measure. We need the selected queue and definitions before producing a credible baseline. Technical discovery can narrow these questions; it is not expected to settle a complete architecture in thirty minutes.
+
+PAGE-N06 | Deliverables and Next Conversation
+Owner: Alex Morgan
+Last edited: September 4, 2026, 14:10 Eastern
+Status: Discovery commitments tracker
+
+ITEM D-01: Sanitized field sample.
+Owner: Daniel Reed. Agreed due: Monday, September 7, 16:00 Eastern. State at snapshot: pending; no received sample evidenced. Daniel explicitly said he was on a Labor Day support rotation and could prepare it in that window. This is a specific commitment, not the team's normal holiday availability. Contents: field structure, identifiers, statuses, and fake values. No live customer mailbox content.
+
+ITEM D-02: One-page workflow map.
+Owner: Alex Morgan. Agreed due: Tuesday, September 8, 12:00 Eastern. Audience: Maya, Daniel, and Lena. State: internal working notes exist [[PAGE-N04]]; final map has not been sent. The map will separate current handoffs, suggested improvements, and unanswered questions. This is a discovery deliverable, not an implementation proposal.
+
+ITEM C-01: Technical discovery.
+Wednesday, September 9, 14:00-14:30 Eastern. Alex, Maya, Daniel, and Lena accepted the invitation during the September 3 call. Purpose: inspect the sample, examine identifiers and access questions, and narrow a workflow. Finance was not invited; the group wanted coherent discovery findings before widening the conversation.
+
+OPEN: Pilot baseline.
+No final owner, measurement queue, or due date was agreed. Lena can help define a successful handoff, but that is not a commitment to deliver baseline numbers before Wednesday. Additional examples of cross-depot confusion were offered conditionally; sharing rules and timing still need discussion.
+
+PAGE-N07 | Pilot Options - Commercial Scratchpad
+Owner: Alex Morgan
+Last edited: September 4, 2026, 15:00 Eastern
+Status: Internal hypotheses; not a customer-approved plan
+
+One possible pilot would follow a single request type through Sales and operations. Existing-account service changes and new-account onboarding are candidates. We should not combine them merely because both cross team boundaries. The technical review and customer priorities should help choose a narrow starting point.
+
+Possible measures: requests with an explicit next-action owner; instances where a customer has to chase an answer; time between an operational answer and the outward response. Counting newly created tasks alone would reward activity rather than an improved handoff. These are candidate measures without baseline figures or target percentages.
+
+Commercial preparation needs several answers: which workflow is included, what data can be accessed, how exceptions will be handled, who will use the result, and what the customer sees as success. Until then we cannot infer price, effort, or a start date from enthusiasm in discovery.
+
+Maya is an operational sponsor, not a confirmed sole buyer. Finance review is expected and procurement may depend on scope. We have not met the Finance reviewer or recorded a budget authorization. Daniel's technical participation is not approval for production access.
+
+If the Wednesday discussion is productive, a sensible next conversation could address pilot boundaries and who should review them. That is a proposed next step, not an agreed meeting or an approved pilot. Do not use a forecast label to describe it as won.
+
+PAGE-N08 | Internal Briefing - Questions From the Delivery Team
+Owner: Alex Morgan
+Last edited: September 7, 2026, 08:30 Eastern
+Status: Internal questions awaiting briefing
+
+The delivery team read the original opportunity note and asked whether it should reserve migration specialists. That request is based on the older “CRM replacement” wording, not a new customer instruction. Before reserving delivery capacity, the team needs a clear account of what September 3 actually changed. Relevant records: [[PAGE-N02]], [[PAGE-N03]], and [[PAGE-N07]].
+
+One colleague asked whether the draft handoff page meant the workflow map had already been delivered. The internal working page exists, but the tracker still records Alex's Tuesday delivery as pending. Preparing notes and sending a promised deliverable are different events. No delivery evidence has been added since the tracker update.
+
+Another question concerned the customer metrics: can we put “fewer missed requests” in a business case? It describes the desired direction, but we currently lack a defined queue, measured baseline, and agreed target. Lena's involvement should help clarify these; assigning the measurement to her with a Wednesday deadline would go beyond the meeting agreement.
+
+For the technical session, the delivery team would find a short brief useful: confirmed direction, the two committed deliverables, access limits, and the decisions still needed. It should help colleagues avoid repeating old assumptions without pretending every question has already been answered.

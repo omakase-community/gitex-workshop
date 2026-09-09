@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan My Day / Week"
+  short_description: "Find commitments and choose useful next actions"
+  default_prompt: "Use $workshop-plan-week to help me explore what needs my attention this week."

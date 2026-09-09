@@ -1,0 +1,135 @@
+KIVO — SENT EMAIL EXAMPLES
+
+FICTIONAL WORKSHOP INPUT. All people, companies, addresses, and messages in this file are invented. The .example addresses are not deliverable. These are historical messages, not messages the workshop agent has sent. Alex Morgan is a consultant at Kivo, a fictional 32-person US technology consultancy for CRM and operations integration in logistics. All timestamps use America/New_York, UTC-04:00 on these dates. The sample clock is frozen at Monday, 2026-09-07 09:00; this is not the participant's live inbox.
+
+These eight messages represent Alex's own outgoing prose. Quoted incoming text is explicitly marked and is not Alex's writing. The mix is intentional: first contact, practical follow-up, scope clarification, coordination, and a short familiar-client response. It is source material for exploration, not a universal email template.
+
+SENT-01 | 2026-08-18 10:12
+From: Alex Morgan <alex@kivo.example>
+To: Priya Shah <priya@cedarport.example>
+Subject: The handoff after a distributor inquiry
+
+Hi Priya,
+
+I saw your team's note about opening a second distribution site. I'm curious how a new distributor inquiry reaches the right person once it moves beyond the shared inbox.
+
+At Kivo, we help logistics teams connect the CRM and the operational tools they already use. One recurring problem is that the customer record looks current, but the next action still lives in someone's email.
+
+If that sounds familiar, would a short conversation next week be useful? We could start with one handoff rather than a broad systems discussion.
+
+Thanks,
+Alex
+
+SENT-02 | 2026-08-20 15:34
+From: Alex Morgan <alex@kivo.example>
+To: Noah Brooks <noah@northstarfreight.example>
+Subject: A smaller starting point
+
+Hi Noah,
+
+Thanks for being direct about the team's capacity. I don't think adding a new reporting routine is the right first move if everyone is already maintaining three versions of the same account update.
+
+Could we look at the weekly customer handoff instead? If we can see where the information is copied, we can work out whether one of those copies can disappear. That gives us something concrete to evaluate without asking your team to commit to a larger project.
+
+A few anonymized examples are enough for the first discussion. We don't need production access.
+
+Best,
+Alex
+
+SENT-03 | 2026-08-24 09:18
+From: Alex Morgan <alex@kivo.example>
+To: Maya Chen <maya@harborline.example>
+Subject: Before Thursday's conversation
+
+Hi Maya,
+
+Thursday works. It would help to have someone from IT and someone who owns sales operations in the conversation, since the follow-up issue seems to cross both teams.
+
+No presentation needed. If you can bring one recent inquiry that was handed from sales to operations, we can use it to understand the actual steps and where people lose the thread.
+
+We'll focus on how the current tools work together. I'm not assuming you need to replace the CRM.
+
+Thanks,
+Alex
+
+SENT-04 | 2026-08-27 11:46
+From: Alex Morgan <alex@kivo.example>
+To: Rosa Vega <rosa@bluemesa.example>
+Subject: Re: Can this be included in the pilot?
+
+Hi Rosa,
+
+We can explore it, but I'd keep the warehouse forecasting work separate from the initial handoff pilot. Otherwise we're testing two different problems and it will be hard to tell whether either change helped.
+
+For the first scope, I suggest we follow an inbound request from the shared inbox through assignment and the first customer response. Then we can decide whether forecasting belongs in a second phase.
+
+Does that match the problem your team wants to solve first?
+
+Best,
+Alex
+
+Quoted incoming text from Rosa, not Alex's prose:
+“Could you also include demand forecasting? Our warehouse manager mentioned it this morning. We would like a complete end-to-end solution if possible.”
+
+SENT-05 | 2026-08-31 16:05
+From: Alex Morgan <alex@kivo.example>
+To: Eli Turner <eli@atlasridge.example>
+Subject: The two examples for Tuesday
+
+Hi Eli,
+
+Thanks — the screenshots make the problem much clearer. The missing piece is what happens after someone assigns the inquiry, not how the inquiry arrives.
+
+Could you bring one example that went smoothly and one that needed chasing? Comparing those will be more useful than another overview of the tool stack.
+
+Please remove customer names and shipment details before sharing. A simple description of the fields and steps is enough.
+
+See you Tuesday,
+Alex
+
+SENT-06 | 2026-09-02 13:27
+From: Alex Morgan <alex@kivo.example>
+To: Samir Patel <samir@summitlink.example>
+Subject: Re: Sharing the workflow internally
+
+Hi Samir,
+
+Absolutely — share the workflow note with your operations lead. It's a starting point for discussion, not a final implementation plan.
+
+The open question is who owns a request when the original salesperson is away. Once we have that answer, I can update the handoff steps so the diagram reflects what your team will actually do.
+
+Could you send back any comments in one thread? That should help us avoid working from different versions.
+
+Thanks,
+Alex
+
+SENT-07 | 2026-09-03 17:10
+From: Alex Morgan <alex@kivo.example>
+To: Maya Chen <maya@harborline.example>
+Cc: Daniel Reed <daniel@harborline.example>; Lena Ortiz <lena@harborline.example>
+Subject: Thursday recap and the workflow map
+
+Hi Maya, Daniel, and Lena,
+
+Thanks for walking through the real handoff today. The main issue I heard was ownership: the opportunity is won, but the next person doesn't always know what was promised or when to act.
+
+I'll send a one-page workflow map by Tuesday, September 8, at noon Eastern. Daniel, thanks for offering a sanitized field sample by Monday at 4 pm Eastern. That will help us ground the map in the fields you actually have.
+
+For Wednesday's technical call, let's focus on handoff events and field availability. We still need to agree on a pilot success baseline; today's discussion wasn't a budget approval or a decision to replace the CRM.
+
+Best,
+Alex
+
+SENT-08 | 2026-09-04 15:42
+From: Alex Morgan <alex@kivo.example>
+To: Eli Turner <eli@atlasridge.example>
+Subject: Re: Monday review
+
+Hi Eli,
+
+Got it. I'll hold the review until September 15 and wait for your revised examples. No need to rush a version your team hasn't checked.
+
+If the owner question comes up before then, send it over and we can resolve that part separately.
+
+Thanks,
+Alex

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catch Up With My Team"
+  short_description: "Find changes, decisions, and follow-ups in Slack"
+  default_prompt: "Use $workshop-team-catchup to help me understand what changed in my team's Slack conversations."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workshop: Choose Your Workflow"
+  short_description: "Explore seven practical CRM and sales workflows"
+  default_prompt: "Use $workshop-decide to help me choose a workflow to explore."

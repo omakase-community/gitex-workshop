@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Emails in My Style"
+  short_description: "Explore emails and write in your own voice"
+  default_prompt: "Use $workshop-email-style to help me explore my emails and decide what to work on."

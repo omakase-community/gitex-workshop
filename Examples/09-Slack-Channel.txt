@@ -1,0 +1,118 @@
+KIVO / INTERNAL SLACK EXAMPLE
+
+Workspace: Kivo
+Channel: #delivery-improvements
+Snapshot: Monday, September 7, 2026, 09:00 America/New_York
+Earlier period: Monday, August 31 through Friday, September 4, 2026
+Current period represented: Monday, September 7, 2026, 08:00-09:00
+
+Kivo is a fictional 32-person US technology consultancy. This channel discusses internal delivery templates and process experiments, not a complete company activity record. This supplied conversation covers the previous working week and only the first hour of the current Monday. Message IDs and thread IDs identify the sample sources. Referenced documents and screenshots are mentioned by participants but are not supplied as separate evidence here.
+
+Your role: Alex Morgan, a Kivo consultant who wants to catch up before working on internal handoff documentation.
+
+People:
+Alex Morgan - consultant; tests templates with delivery colleagues.
+Nora Patel - delivery lead; owns the internal handoff-template trial.
+Ben Ortiz - platform engineer; maintains the template export tooling.
+Elena Park - enablement specialist; reviews usability and examples.
+Sam Taylor - operations coordinator; keeps the internal trial register.
+
+September 7 is a US holiday. The Monday messages below reflect these people's stated working arrangements, not an assumption that all Kivo employees are working that day.
+
+MONDAY, AUGUST 31
+
+[SLK-001 | 2026-08-31 09:10 | Nora Patel | thread T01 | root]
+Starting the internal handoff-template trial this week. We have three volunteers using made-up practice cases, so please keep this channel about the template and not customer commitments. The goal is that the next person can tell what happened, what is waiting, and who should do what next without asking the author to translate the page. My starting suggestion is one owner field for the whole handoff and an optional notes section. I expect we will learn more from actually filling it in than from debating the labels now.
+
+[SLK-002 | 2026-08-31 09:27 | Alex Morgan | thread T01 | reply to SLK-001]
+Happy to be one of the volunteers. In my practice case, the person writing the summary is not the person who will send the next update. Is the owner field meant to be the author or the person who owes the next step? I can work around it in notes, but two people could read the same page and reach different answers. I would rather clarify the label before everyone invents a convention.
+
+[SLK-003 | 2026-08-31 10:03 | Nora Patel | thread T01 | reply to SLK-001]
+For this first pass, use the person accountable for moving the handoff forward. That is our current working definition, not a finalized design. Please mark places where it is ambiguous. The trial has not changed our existing delivery process, and nobody should migrate an active customer record into this template just to help the experiment.
+
+[SLK-004 | 2026-08-31 14:15 | Elena Park | thread T02 | root]
+One practical snag: I can open the template but the practice-case export button gives me access denied. I can review the text on the page, but I cannot check the downloadable version. Ben, could you look at the permission path when you have a moment? I was signed into my normal Kivo account, not the shared demonstration account.
+
+[SLK-005 | 2026-08-31 14:41 | Ben Ortiz | thread T02 | reply to SLK-004]
+Reproduced with a test reviewer account. The page permission is okay; the export service is checking a different reviewer group. I am checking whether we can use the existing group instead of asking everyone to join another one. No need for you to request broader workspace access. The live page is still usable while I sort this out.
+
+TUESDAY, SEPTEMBER 1
+
+[SLK-006 | 2026-09-01 09:05 | Sam Taylor | thread T03 | root]
+I added a small trial register with the volunteer, practice case, and feedback link. It currently records feedback submitted, not whether every issue is fixed. Please do not read the green check in the submitted column as approval of the template. If we want an approval column later, we should name it separately. I am keeping the first version boring so we can see where the information gets lost.
+
+[SLK-007 | 2026-09-01 10:12 | Alex Morgan | thread T01 | reply to SLK-001]
+Filled out two practice cases. The owner definition helped, but I still lost track of a question waiting on someone else. One case has me preparing a draft while another colleague checks a detail. The single owner label makes that look like one action when it is actually two. Suggestion: separate the record owner from the owner of each next action. The extra detail feels useful only where there is a real action, not as a field on every sentence.
+
+[SLK-008 | 2026-09-01 11:02 | Nora Patel | thread T01 | reply to SLK-001]
+That seems worth testing. Please try record owner plus action owner in the sandbox version, but do not announce that as the new team standard yet. I want Elena to check whether the extra label makes a simple handoff harder to scan. The decision we are trying to make is whether the extra field resolves ambiguity without turning a one-minute update into form filling.
+
+[SLK-009 | 2026-09-01 15:20 | Ben Ortiz | thread T02 | reply to SLK-004]
+The export service can reuse the reviewer group. I have the change on the test instance and will check that it does not expose pages a reviewer cannot otherwise open. The access error is still expected in the normal trial instance today. I will post when the fix is actually deployed so nobody treats this message as the all-clear.
+
+WEDNESDAY, SEPTEMBER 2
+
+[SLK-010 | 2026-09-02 09:18 | Elena Park | thread T04 | root]
+Keyboard pass on the sandbox template: tabbing reaches the action-owner selector, but after choosing a person the focus returns to the top of the page. It is possible to finish using the mouse. For someone staying on the keyboard it is annoying and easy to lose their place. This is separate from the export permission issue. I put reproduction steps in the feedback page; a label change alone will not fix it.
+
+[SLK-011 | 2026-09-02 09:46 | Ben Ortiz | thread T04 | reply to SLK-010]
+Thanks, reproduced. I can look at the selector component, but I do not yet have a reliable fix or an estimate. It seems to happen after the selected value is rendered, rather than when the menu opens. Please leave this issue open in the register. Export and keyboard focus have different causes, so I will track them separately.
+
+[SLK-012 | 2026-09-02 11:35 | Elena Park | thread T01 | reply to SLK-001]
+I tried the two-owner version with Sam. We both understood record owner as the point person for the handoff, and action owner as the person doing a specific next step. That was easier than reading all the notes to work it out. I would keep the two labels but make next actions a short section instead of spreading optional fields across the whole page. We can still leave it empty if nothing was agreed.
+
+[SLK-013 | 2026-09-02 13:02 | Nora Patel | thread T01 | reply to SLK-001]
+Decision for the rest of this internal trial: keep record owner and add action owner beside each next action. That replaces Monday's single-owner approach. The example should also distinguish a requested action from an accepted commitment; we should not assign someone a deadline simply because another person suggested one. This is approved for the volunteer trial, not a rollout to all delivery work.
+
+[SLK-014 | 2026-09-02 16:10 | Sam Taylor | thread T05 | root]
+Different idea for later: could the register post a daily Slack digest at 09:00 with every action that has no completion check? It might save people opening the table. I have not built or enabled anything. Before doing that I would want to know whether it would just repeat tasks that are intentionally waiting, and whether the channel is the right place for individual reminders.
+
+THURSDAY, SEPTEMBER 3
+
+[SLK-015 | 2026-09-03 08:55 | Nora Patel | thread T05 | reply to SLK-014]
+Please leave the daily digest as an idea for now. A missing completion check is not a dependable overdue signal, and I do not want reminders that shame someone for a task we have not verified. Let us get the status meanings straight first. We can discuss a quiet, opt-in version after the trial, but there is no approval to switch on a bot this week.
+
+[SLK-016 | 2026-09-03 10:24 | Alex Morgan | thread T06 | root]
+I can write a short before-and-after example for the handoff notes. I will share it here by Friday at 15:00 so we have something concrete to show volunteers. I am using fictional details and will show the same information in both versions; otherwise a prettier example could look better simply because I left the difficult bits out. If there is a specific ambiguity people want included, reply here.
+
+[SLK-017 | 2026-09-03 11:06 | Elena Park | thread T06 | reply to SLK-016]
+Could you include someone asking for a date and the other person saying they still need to check it? That is where our summaries can accidentally turn a request into a promise. The shorter version should not remove that uncertainty. Also a completed action with a remaining follow-up would help: people sometimes think the whole topic closes when one checkbox is ticked.
+
+[SLK-018 | 2026-09-03 13:40 | Ben Ortiz | thread T02 | reply to SLK-004]
+Export permissions fixed in the normal trial instance. I tested one allowed page and one restricted page with a reviewer account; the first exported and the second stayed inaccessible. Elena, could you verify with your own account before we close the issue? The change is specifically the permission check, not the keyboard-focus problem discussed in T04.
+
+[SLK-019 | 2026-09-03 14:08 | Elena Park | thread T02 | reply to SLK-004]
+Confirmed: my account now downloads the practice case, and the restricted test page is still blocked. The downloaded text matches the page I checked. Export access is working for me. I have a small wording suggestion for the file title, but that is not blocking the trial and should not keep this permission issue open.
+
+FRIDAY, SEPTEMBER 4
+
+[SLK-020 | 2026-09-04 09:00 | Sam Taylor | thread T02 | reply to SLK-004]
+Marked the export-permission issue resolved in the register, with Elena's verification linked. Keyboard focus remains a separate open issue. I also renamed the column to feedback submitted so the green checks cannot be confused with issue resolution. That is a register label change, not evidence that every feedback item has been addressed.
+
+[SLK-021 | 2026-09-04 10:35 | Nora Patel | thread T07 | root]
+Before the weekend: the volunteer trial continues next week with the revised owner labels. We are not extending it to the whole company yet. I would like another usability pass and clearer examples before deciding that. No need to turn the quantity of comments here into a progress score; a quiet day may mean people are using the template rather than discussing it.
+
+[SLK-022 | 2026-09-04 11:10 | Ben Ortiz | thread T04 | reply to SLK-010]
+Update on keyboard focus: I tried preserving the element reference but could still reproduce the jump after a rerender. That change is not ready. I am leaving the existing component in place rather than shipping a partial fix. I will continue investigating next week; I cannot promise a day yet. There is no dependency on the export service anymore.
+
+[SLK-023 | 2026-09-04 14:12 | Alex Morgan | thread T06 | reply to SLK-016]
+The before-and-after example is drafted. I added Elena's date-request case and am checking the wording so the requested deadline stays a request in both versions. I still owe this thread the final link. The draft is in my working notes; it is not yet the version I want people copying into their handoffs.
+
+[SLK-024 | 2026-09-04 16:20 | Sam Taylor | thread T07 | reply to SLK-021]
+I will be online for a short window Monday morning even though it is the holiday. I can check that the trial links still work and tidy the register headings. No expectation that others reply that morning. I will leave anything needing a discussion for the normal working schedule rather than treating the channel as an attendance list.
+
+MONDAY, SEPTEMBER 7
+
+[SLK-025 | 2026-09-07 08:05 | Sam Taylor | thread T07 | reply to SLK-021]
+Morning check done: the trial template and register links open, and the export-permission entry is still resolved. I have not independently retested the keyboard issue, so its status is unchanged rather than newly confirmed today. I also added a note above the register saying that feedback submitted and issue closed are different things. Going offline shortly; no reply needed now.
+
+[SLK-026 | 2026-09-07 08:22 | Nora Patel | thread T08 | root]
+Brief holiday check-in from me too. For the next usable version, the priority is clarity of handoff actions, not more fields or an automated digest. Keep the two-owner trial structure from Wednesday. I am particularly interested in whether the examples explain the difference between something requested and something actually agreed. We can discuss the next round when everyone is back; this is not a request for everyone to work today.
+
+[SLK-027 | 2026-09-07 08:38 | Sam Taylor | thread T06 | reply to SLK-016]
+Alex, when you are next online, can you point me to the final before-and-after example? I can see your Friday draft update but not a final link in this thread. It may be in another conversation I have missed. I have not marked the example complete in the register yet; happy to update that once I know which version to use.
+
+[SLK-028 | 2026-09-07 08:52 | Nora Patel | thread T05 | reply to SLK-014]
+Leaving a breadcrumb for the digest idea: still parked, not enabled. Once our action labels are clearer, a weekly review might be more useful than a daily list of unchecked boxes. That is another option to consider, not a new schedule. We would need agreement on the audience and on what should trigger a message before anyone builds it.
+
+END OF SUPPLIED CHANNEL CONVERSATION

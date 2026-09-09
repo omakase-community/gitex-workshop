@@ -1,0 +1,54 @@
+KIVO — CUSTOMER THREAD
+
+FICTIONAL WORKSHOP INPUT. These messages are invented historical records. All addresses use .example and are not deliverable. The workshop participant is acting as Alex Morgan, Kivo consultant. Sample clock: Monday, 2026-09-07 09:00 America/New_York (UTC-04:00). This is not a live account. Read messages oldest to newest; Alex has not replied to EMAIL-03 in the supplied record.
+
+EMAIL-01 | Thursday, 2026-09-03 17:10 America/New_York
+From: Alex Morgan <alex@kivo.example>
+To: Maya Chen <maya@harborline.example>
+Cc: Daniel Reed <daniel@harborline.example>; Lena Ortiz <lena@harborline.example>
+Subject: Thursday recap and the workflow map
+
+Hi Maya, Daniel, and Lena,
+
+Thanks for walking through the real handoff today. The main issue I heard was ownership: the opportunity is won, but the next person doesn't always know what was promised or when to act.
+
+I'll send a one-page workflow map by Tuesday, September 8, at noon Eastern. Daniel, thanks for offering a sanitized field sample by Monday at 4 pm Eastern. That will help us ground the map in the fields you actually have.
+
+For Wednesday's technical call, let's focus on handoff events and field availability. We still need to agree on a pilot success baseline; today's discussion wasn't a budget approval or a decision to replace the CRM.
+
+Best,
+Alex
+
+EMAIL-02 | Friday, 2026-09-04 10:25 America/New_York
+From: Daniel Reed <daniel@harborline.example>
+To: Alex Morgan <alex@kivo.example>
+Cc: Maya Chen <maya@harborline.example>; Lena Ortiz <lena@harborline.example>
+Subject: Re: Thursday recap and the workflow map
+
+Hi Alex,
+
+The sample is still with our team for sanitization. Monday at 4 pm Eastern remains the target; I'll let you know if that changes. Please work from field names and fake rows only. Production credentials and actual customer records aren't available for this stage.
+
+The Wednesday, September 9, 2 pm Eastern technical call is confirmed. I'd like to use it to separate fields that are consistently populated from fields that sales sometimes leaves blank. We have an owner field, but its existence doesn't prove that everyone interprets ownership the same way.
+
+One concern on the proposed map: please don't represent every new email as a new CRM opportunity. A lot of our operational traffic is about existing shipments. We should identify the business event before deciding what record it updates.
+
+Thanks,
+Daniel
+
+EMAIL-03 | Monday, 2026-09-07 08:32 America/New_York
+From: Maya Chen <maya@harborline.example>
+To: Alex Morgan <alex@kivo.example>
+Cc: Daniel Reed <daniel@harborline.example>; Lena Ortiz <lena@harborline.example>
+Subject: Re: Thursday recap and the workflow map
+
+Hi Alex,
+
+For tomorrow's map, please make the next-owner step especially clear. That's the bit I want to discuss with Lena before Wednesday. We can use placeholders where Daniel's field sample hasn't arrived yet, as long as you flag them.
+
+Could you also suggest how we should establish the baseline for a small pilot? I don't have a reliable count of missed follow-ups, so I wouldn't want a claimed percentage improvement to become the headline before we measure anything.
+
+No need for a full proposal yet. I'd rather agree on one workflow and how we will judge it first. The Tuesday noon Eastern deadline still works for our review. The technical call remains Wednesday at 2 pm Eastern.
+
+Thanks,
+Maya

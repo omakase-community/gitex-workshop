@@ -1,0 +1,124 @@
+FICTIONAL OFFLINE COMPANY CARDS — CODEX SALES WORKSHOP
+
+These five companies, people, facts, quotations, and source IDs are invented exercise data. They are not search results or verified leads. Domains ending in .example are placeholders, not live websites. Source IDs identify supplied fictional snippets only; never cite them as real web evidence or submit them to a live enrichment service.
+
+Use only when the participant chooses the offline example. The goal is to practice explaining fit, distinguishing evidence from inference, and refining a customer segment. A company card is not proof that a company wants to buy. Some records deliberately contain gaps. The five cards are candidates to qualify, not five pre-approved ideal customers.
+
+SELLER CONTEXT
+Use the separate Kivo company brief as the source of truth for the seller. These cards provide only fictional prospective customers.
+
+======================================================================
+COMPANY 1: HARBORLINE LOGISTICS
+======================================================================
+Company ID: DEMO-HARBORLINE
+Placeholder domain: harborline-logistics.example
+Location: Chicago, Illinois, United States
+Business: Regional freight brokerage and managed transportation
+Employees: 340 — fictional, stated in source OFFLINE-HL-ABOUT
+Relevant named person: Maya Chen, VP of Operations
+
+Source ID: OFFLINE-HL-ABOUT
+Source type: Fictional company overview
+Snippet: "Harborline Logistics is a 340-person transportation business based in Chicago. Our brokerage and managed transportation teams coordinate domestic shipments for industrial and retail customers. Maya Chen serves as VP of Operations."
+
+Source ID: OFFLINE-HL-EXPANSION
+Source type: Fictional company announcement
+Snippet: "Our new Midwest commercial team will work alongside operations to support a growing book of regional accounts. We are reviewing the handoff from a sales commitment to the operating team that delivers it."
+
+Source ID: OFFLINE-HL-JOB
+Source type: Fictional operations systems job posting
+Snippet: "The systems coordinator will reconcile CRM account details with transport-management records and help sales and operations maintain consistent ownership of customer follow-ups."
+
+Qualification notes: The CRM-to-operations handoff is directly relevant to an integration offer. Expansion is context, not independent proof of need. An active job posting does not establish whether Harborline wants outside consulting.
+Unknowns: Budget, purchasing authority, current integration vendors, and whether an external project is being considered.
+Possible target roles: VP of Operations; Head of Business Systems; sales operations leader.
+
+======================================================================
+COMPANY 2: ALDERROUTE FREIGHT
+======================================================================
+Company ID: DEMO-ALDERROUTE
+Placeholder domain: alderroute-freight.example
+Location: Charlotte, North Carolina, United States
+Business: Multi-state freight brokerage
+Employees: 230 — fictional, stated in source OFFLINE-AR-ABOUT
+Relevant named person: Elena Brooks, Director of Business Systems
+
+Source ID: OFFLINE-AR-ABOUT
+Source type: Fictional company and leadership overview
+Snippet: "AlderRoute Freight employs 230 people across commercial, carrier services, and operations. Director of Business Systems Elena Brooks supports the tools used by all three teams."
+
+Source ID: OFFLINE-AR-INTERVIEW
+Source type: Fictional leadership interview
+Snippet: "A quote can move between a salesperson, a shared inbox, and our dispatch team before anyone updates the account record. We want fewer manual handoffs, but we are not planning to replace our transport system."
+
+Qualification notes: Integration around an existing system is a closer match than a full replacement pitch. The public problem statement is stronger evidence of fit than company size alone.
+Unknowns: CRM product, current project owner, approved budget, and implementation timeline.
+Possible target roles: Director of Business Systems; operations director; commercial operations lead.
+
+======================================================================
+COMPANY 3: PINEBRIDGE COLD CHAIN
+======================================================================
+Company ID: DEMO-PINEBRIDGE
+Placeholder domain: pinebridge-coldchain.example
+Location: Columbus, Ohio, United States
+Business: Refrigerated warehousing and transport coordination
+Employees: 280 — fictional, stated in source OFFLINE-PC-ABOUT
+Relevant named person: No current individual is named in the supplied snippets.
+
+Source ID: OFFLINE-PC-ABOUT
+Source type: Fictional company overview
+Snippet: "Pinebridge Cold Chain has 280 employees supporting temperature-controlled storage and regional distribution from three Ohio facilities."
+
+Source ID: OFFLINE-PC-JOB
+Source type: Fictional account operations job posting
+Snippet: "The account operations lead will track onboarding commitments, collect site requirements from customer emails, and keep commercial and warehouse teams aligned on the next action for each new customer."
+
+Qualification notes: Email-to-account information and onboarding commitments suggest a plausible workflow to investigate. The source does not identify a specific CRM or prove that manual work is currently causing measurable loss.
+Unknowns: Named decision-maker, systems in use, project priority, and willingness to engage a consultant.
+Possible target roles: Head of Account Operations; IT director; VP of Commercial Operations.
+
+======================================================================
+COMPANY 4: MERIDIAN DOCK SERVICES
+======================================================================
+Company ID: DEMO-MERIDIAN
+Placeholder domain: meridian-dock.example
+Location: Savannah, Georgia, United States
+Business: Port-adjacent logistics and customs coordination
+Employees: 720 — fictional, stated in source OFFLINE-MD-ABOUT
+Relevant named person: Aaron Patel, VP of Technology
+
+Source ID: OFFLINE-MD-ABOUT
+Source type: Fictional company and leadership overview
+Snippet: "Meridian Dock Services has 720 employees. VP of Technology Aaron Patel leads its internal applications and integration organization."
+
+Source ID: OFFLINE-MD-UPDATE
+Source type: Fictional technology program announcement
+Snippet: "Our internal integration team has completed the first phase of connecting commercial account records with our port-service platform. The next phase is already assigned to our existing implementation partner."
+
+Qualification notes: Size and sector fit a broad logistics ICP, but the established internal team and partner weaken a generic integration pitch. This candidate invites the participant to refine exclusions or investigate a specific unserved problem rather than assume fit.
+Unknowns: Gaps outside the assigned project, partner-contract scope, and whether any independent advisory work is needed.
+Possible target roles: VP of Technology; enterprise applications leader.
+
+======================================================================
+COMPANY 5: WESTMERE FULFILLMENT
+======================================================================
+Company ID: DEMO-WESTMERE
+Placeholder domain: westmere-fulfillment.example
+Location: Reno, Nevada, United States
+Business: E-commerce fulfillment and returns management
+Employees: 150–199 — fictional range from OFFLINE-WF-PROFILE; exact count unknown
+Relevant named person: Priya Nair, Head of Client Success
+
+Source ID: OFFLINE-WF-PROFILE
+Source type: Fictional company profile
+Snippet: "Westmere Fulfillment operates two facilities in Nevada and lists an employee range of 150–199. Head of Client Success Priya Nair oversees merchant onboarding and account reviews."
+
+Source ID: OFFLINE-WF-INTERVIEW
+Source type: Fictional client success interview
+Snippet: "We introduced a CRM last quarter. Account managers still keep meeting commitments in their own notes, and operations often asks for the same customer information twice. We want a consistent process before buying another application."
+
+Qualification notes: A process-first offer and meeting-to-CRM workflow fit the stated situation. Do not round the employee range to a made-up exact figure or turn a desire for a process into consent to buy software.
+Unknowns: CRM product, systems access, allocated budget, and the final purchasing decision-maker.
+Possible target roles: Head of Client Success; operations lead; business systems owner.
+
+END OF FICTIONAL OFFLINE DATA

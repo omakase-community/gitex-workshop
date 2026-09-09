@@ -1,0 +1,94 @@
+WORKSHOP V5 - FILE DIRECTORY
+
+Open this entire folder as a local Codex project and send: Start the workshop.
+START-HERE.pdf and START-HERE.txt explain the seven workflows.
+AGENTS.md routes a start request to the workshop guide.
+.agents/skills is the working copy. Skills/ and Examples/ are matching reading copies.
+Eight skills include the menu/router and seven workflows; nine example inputs are fictional.
+Connecting an account is separate from installing a plugin or approving external changes.
+No credentials or participant data are included.
+
+FILES (82)
+
+.agents/skills/workshop-decide/SKILL.md
+.agents/skills/workshop-decide/agents/openai.yaml
+.agents/skills/workshop-decide/assets/kivo-company.txt
+.agents/skills/workshop-decide/references/agent-setup.md
+.agents/skills/workshop-decide/references/common.md
+.agents/skills/workshop-decide/references/connections.md
+.agents/skills/workshop-decide/references/delivery.md
+.agents/skills/workshop-decide/references/provider-routes.md
+.agents/skills/workshop-decide/references/recurrence.md
+.agents/skills/workshop-decide/references/scheduled-setup.md
+.agents/skills/workshop-decide/scripts/connection_plan.py
+.agents/skills/workshop-email-style/SKILL.md
+.agents/skills/workshop-email-style/agents/openai.yaml
+.agents/skills/workshop-email-style/assets/email-thread.txt
+.agents/skills/workshop-email-style/assets/sent-emails.txt
+.agents/skills/workshop-find-customers/SKILL.md
+.agents/skills/workshop-find-customers/agents/openai.yaml
+.agents/skills/workshop-find-customers/assets/offline-company-cards.txt
+.agents/skills/workshop-find-customers/references/enrichment.md
+.agents/skills/workshop-meeting-actions/SKILL.md
+.agents/skills/workshop-meeting-actions/agents/openai.yaml
+.agents/skills/workshop-meeting-actions/assets/customer-before.txt
+.agents/skills/workshop-meeting-actions/assets/meeting-transcript.txt
+.agents/skills/workshop-meeting-prep/SKILL.md
+.agents/skills/workshop-meeting-prep/agents/openai.yaml
+.agents/skills/workshop-notion-answers/SKILL.md
+.agents/skills/workshop-notion-answers/agents/openai.yaml
+.agents/skills/workshop-notion-answers/assets/notion-project-pages.txt
+.agents/skills/workshop-plan-week/SKILL.md
+.agents/skills/workshop-plan-week/agents/openai.yaml
+.agents/skills/workshop-plan-week/assets/work-inbox.txt
+.agents/skills/workshop-team-catchup/SKILL.md
+.agents/skills/workshop-team-catchup/agents/openai.yaml
+.agents/skills/workshop-team-catchup/assets/slack-channel.txt
+AGENTS.md
+CONTENTS.txt
+Examples/01-Kivo-Company.txt
+Examples/02-Company-Research-Cards.txt
+Examples/03-Sent-Emails.txt
+Examples/04-Customer-Email-Thread.txt
+Examples/05-Meeting-Transcript.txt
+Examples/06-Customer-Record-Before-Meeting.txt
+Examples/07-Work-Inbox.txt
+Examples/08-Notion-Project-Pages.txt
+Examples/09-Slack-Channel.txt
+START-HERE.pdf
+START-HERE.txt
+START-WORKSHOP.md
+Skills/workshop-decide/SKILL.md
+Skills/workshop-decide/agents/openai.yaml
+Skills/workshop-decide/assets/kivo-company.txt
+Skills/workshop-decide/references/agent-setup.md
+Skills/workshop-decide/references/common.md
+Skills/workshop-decide/references/connections.md
+Skills/workshop-decide/references/delivery.md
+Skills/workshop-decide/references/provider-routes.md
+Skills/workshop-decide/references/recurrence.md
+Skills/workshop-decide/references/scheduled-setup.md
+Skills/workshop-decide/scripts/connection_plan.py
+Skills/workshop-email-style/SKILL.md
+Skills/workshop-email-style/agents/openai.yaml
+Skills/workshop-email-style/assets/email-thread.txt
+Skills/workshop-email-style/assets/sent-emails.txt
+Skills/workshop-find-customers/SKILL.md
+Skills/workshop-find-customers/agents/openai.yaml
+Skills/workshop-find-customers/assets/offline-company-cards.txt
+Skills/workshop-find-customers/references/enrichment.md
+Skills/workshop-meeting-actions/SKILL.md
+Skills/workshop-meeting-actions/agents/openai.yaml
+Skills/workshop-meeting-actions/assets/customer-before.txt
+Skills/workshop-meeting-actions/assets/meeting-transcript.txt
+Skills/workshop-meeting-prep/SKILL.md
+Skills/workshop-meeting-prep/agents/openai.yaml
+Skills/workshop-notion-answers/SKILL.md
+Skills/workshop-notion-answers/agents/openai.yaml
+Skills/workshop-notion-answers/assets/notion-project-pages.txt
+Skills/workshop-plan-week/SKILL.md
+Skills/workshop-plan-week/agents/openai.yaml
+Skills/workshop-plan-week/assets/work-inbox.txt
+Skills/workshop-team-catchup/SKILL.md
+Skills/workshop-team-catchup/agents/openai.yaml
+Skills/workshop-team-catchup/assets/slack-channel.txt
