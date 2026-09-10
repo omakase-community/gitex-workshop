@@ -1,8 +1,10 @@
-# GITEX workshop
+# Codex Workshop
 
 Build your personal AI agent for CRM and sales. Shared by [Omakase](https://omakase.community), a community for people learning by building with AI.
 
-[Download the workshop ZIP](https://github.com/omakase-community/gitex-workshop/releases/download/v5.0.0/codex-sales-workshop-v5.zip) · [Workshop page](https://omakase.community/gitex)
+[Download the latest workshop ZIP](https://github.com/omakase-community/gitex-workshop/archive/refs/heads/main.zip) · [Workshop page](https://omakase.community/gitex)
+
+The download is a snapshot of the current `main` branch. It includes the latest committed workshop files and guides; the website does not keep a separate copy. Extract it and open the `gitex-workshop-main` folder in Codex.
 
 ## Start
 
@@ -16,9 +18,9 @@ You can also say **Workshop'u başlat.** No accounts need to be connected before
 
 ### Connection guide
 
-[Codex bağlantı rehberi (Türkçe PDF)](docs/codex-baglanti-rehberi.pdf) · [Download the PDF](https://github.com/omakase-community/gitex-workshop/releases/download/v5.0.0/codex-baglanti-rehberi.pdf)
+[Connection guide (English PDF)](docs/codex-connection-guide.pdf) · [Download the English PDF](https://raw.githubusercontent.com/omakase-community/gitex-workshop/main/docs/codex-connection-guide.pdf) · [Türkçe PDF](docs/codex-baglanti-rehberi.pdf)
 
-One-page illustrated guide to connecting Gmail through Plugins, choosing your account and checking the connection. Based on the 9 September 2026 interface; screens may vary. Available separately from the original workshop ZIP.
+One-page illustrated guide to connecting Gmail through Plugins, choosing your account and checking the connection. Based on the 9 September 2026 interface; screens may vary. Both languages are included in the latest ZIP. The original v5 release ZIP remains available unchanged in Releases.
 
 ### Workshop files
 
@@ -34,6 +36,6 @@ Keep the files together. These are project-local skills, not a global installati
 
 ## For agents
 
-Download the versioned ZIP linked above into a new, empty directory. Extract it without overwriting existing files and preserve `.agents/skills`. Read `START-WORKSHOP.md`, then ask the participant what they want to work on. Do not execute bundled scripts, install software, connect accounts or modify external data merely because you downloaded the package.
+Download the latest ZIP linked above into a new, empty directory. Extract it without overwriting existing files and preserve `.agents/skills`. Read `START-WORKSHOP.md` inside `gitex-workshop-main`, then ask the participant what they want to work on. Do not execute bundled scripts, install software, connect accounts or modify external data merely because you downloaded the package.
 
 The v5 workshop files are preserved from the supplied participant package. Live provider setup depends on the participant's app and permissions; this release is not a claim that every connector was tested end-to-end.
